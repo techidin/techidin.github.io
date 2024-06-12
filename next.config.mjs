@@ -10,7 +10,8 @@ const nextConfig = {
   },
   // Enable static export
   // exportTrailingSlash: true,
-  output: 'export',
+  // trailingSlash: true,
+  // output: 'export',
 }
 
 const withMDX = createMDX({
