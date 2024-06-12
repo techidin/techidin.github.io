@@ -8,6 +8,9 @@ const nextConfig = {
   experimental: {
     serverActions: true,
   },
+  // Enable static export
+  // exportTrailingSlash: true,
+  output: 'export',
 }
 
 const withMDX = createMDX({
