@@ -12,12 +12,12 @@ export default function AboutMe() {
   return (
     <div className="order-2 col-span-12 flex flex-col border-x border-gray-30 dark:border-gray-500 md:order-1 md:col-span-6 min-[896px]:col-span-7 xl:col-span-4">
       {/* Intro */}
-      <div className="px-4 pt-4 xs:px-10 xs:pt-10">
+      <div className="px-6 pt-10 md:pt-8 md:px-8">
         <motion.h2
           {...animate}
           transition={transitions.default}
           variants={variants.fadeInDown}
-          className="text-5xl font-bold tracking-snug"
+          className="text-2xl md:text-3xl lg:text-4xl font-bold tracking-snug"
         >
           About me
         </motion.h2>

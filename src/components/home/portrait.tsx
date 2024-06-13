@@ -24,7 +24,7 @@ export default function Portrait() {
           <Drawing className="absolute inset-0 z-10 hidden cursor-draw md:block" />
 
           {/* Border */}
-          <div className="flex w-full items-end rounded-xl border border-white/20 p-3 dark:border-gray-50/20">
+          <div className="flex w-full items-end rounded-xl border border-white/20 p-3 dark:border-blue-100/50">
             {/* Label */}
             <div className="flex items-center space-x-3">
               <Icons.Photo className="h-4 text-white/50" />

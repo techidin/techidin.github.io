@@ -20,8 +20,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    site: '@idin.dev',
-    creator: '@idin.dev',
+    site: '@idindev',
+    creator: '@idindev',
   },
 }
 

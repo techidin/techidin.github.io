@@ -4,7 +4,7 @@ const meta = {
     title: 'Ahmad Muhyidin',
     description:
       'My little corner of the web. Work, projects and random thoughts.',
-    url: 'https://techidin.github.io',
+    url: 'https://idindev.vercel.app',
   },
   social: {
     github: 'techidin',

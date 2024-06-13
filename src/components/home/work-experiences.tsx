@@ -86,13 +86,13 @@ export default function WorkExperiences() {
               {/* Experiment */}
               <div className="flex h-full items-center justify-between space-x-4 bg-white transition-colors hover:bg-white/90 dark:bg-gray-1000 dark:hover:bg-transparent">
                 <div className="flex-shrink-0 p-6 pr-2">
-                  <h3 className="text-2xl font-bold leading-none">
+                  <h3 className="text-xl md:text-2xl font-bold leading-none">
                     {experience.role}
                   </h3>
-                  <div className="mt-2 text-xl leading-snug text-gray-50">
+                  <div className="mt-2 text-lg md:text-xl leading-snug text-gray-50">
                     {experience.company}
                   </div>
-                  <div className="mt-1 text-md italic leading-snug text-gray-50">
+                  <div className="mt-1 text-sm md:text-md italic leading-snug text-gray-50">
                     {experience.period}
                   </div>
                 </div>

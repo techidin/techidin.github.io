@@ -70,7 +70,7 @@ export default function Skills() {
           <SectionTitle title="Skills" icon={Icons.Labs} />
         </div>
         <div className="flex flex-col sm:flex-row mt-4">
-          <div className="flex w-1/2 flex-col justify-center divide-y divide-gray-500 pt-8 sm:w-1/2 sm:pr-10 sm:pt-0">
+          <div className="flex flex-col justify-center divide-y divide-gray-500 pt-8 sm:w-1/2 sm:pr-10 sm:pt-0">
             {hardskills.map((skill) => {
               return (
                 <motion.div
@@ -83,7 +83,7 @@ export default function Skills() {
                   <a
                     className="group inline-block active:translate-y-[1px]"
                   >
-                    <span className="text-lg text-gray-50 transition-colors group-hover:text-white">
+                    <span className="text-md md:text-lg text-gray-50 transition-colors group-hover:text-white">
                       - {skill.name}
                     </span>
                   </a>
@@ -92,7 +92,7 @@ export default function Skills() {
             })}
           </div>
 
-          <div className="flex w-1/2 flex-col justify-center divide-y divide-gray-500 pt-8 sm:w-1/2 sm:pt-0">
+          <div className="flex flex-col justify-center divide-y divide-gray-500 pt-8 sm:w-1/2 sm:pt-0">
             {softskills.map((skill) => {
               return (
                 <motion.div
@@ -105,7 +105,7 @@ export default function Skills() {
                   <a
                     className="group inline-block active:translate-y-[1px]"
                   >
-                    <span className="text-lg text-gray-50 transition-colors group-hover:text-white">
+                    <span className="text-md md:text-lg text-gray-50 transition-colors group-hover:text-white">
                       - {skill.name}
                     </span>
                   </a>

@@ -6,6 +6,7 @@ import Portrait from '@/components/home/portrait'
 import Educations from '@/components/home/educations'
 // import Articles from '@/components/home/articles'
 import Skills from '@/components/home/skills'
+import TechStacks from '@/components/home/tech-stacks'
 import Works from '@/components/home/works'
 import Footer from '@/components/shared/footer'
 
@@ -39,6 +40,10 @@ export default async function Home() {
 
         <div className="mx-auto grid max-w-8xl grid-cols-12 px-2 xs:px-6 sm:px-10">
           <Works />
+        </div>
+
+        <div className="mx-auto grid max-w-8xl grid-cols-12 px-2 xs:px-6 sm:px-10">
+          <TechStacks />
         </div>
       </div>
 
