@@ -25,7 +25,7 @@ export default function AboutMe() {
           {...animate}
           transition={transitions.default}
           variants={variants.staggerChildren}
-          className="mt-6 space-y-6 text-lg leading-normal text-gray-50"
+          className="mt-6 space-y-6 text-md md:text-lg leading-normal text-gray-50"
         >
           <motion.p
             variants={variants.fadeInDown}

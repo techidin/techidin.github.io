@@ -306,10 +306,18 @@ export default function Works() {
             className="group/card relative col-span-6 overflow-hidden rounded-2xl border-b border-t-0 border-gray-10 bg-gradient-to-br from-gray-10 via-white to-gray-5 active:top-[1px] dark:border dark:border-gray-50/20 dark:from-gray-1000 dark:via-gray-800 dark:to-gray-950 md:col-span-3 last:md:col-span-6 lg:col-span-2 last:lg:col-span-2"
           >
             {/* <Link href={work.link} target="_blank" className="h-full w-full"> */}
-            <Link href={work.link} className="h-full w-full">
+            {/* target="_blank"
+            href={work.link} */}
+            <motion.a
+                transition={transitions.default}
+                variants={variants.fadeInDown}
+                key={work.name}
+                className="h-full w-full"
+            >
+            {/* <Link href={work.link} className="h-full w-full"> */}
               <work.illustration className="absolute text-gray-20 dark:text-gray-500/80" />
               {/* Content */}
-              <div className="relative flex h-full flex-col items-start bg-white/50 p-8 transition-colors group-hover/card:bg-transparent dark:bg-gray-950/50">
+              <div className="relative flex h-full flex-col items-start bg-white/50 p-6 md:p-8 transition-colors group-hover/card:bg-transparent dark:bg-gray-950/50">
                 <div className="inline-flex w-full justify-end">
                   { work.tag === 'API' ? (
                       <div className="-mr-8 -mt-8 items-center rounded-tr-2xl rounded-bl-xl border border-red-30 bg-white py-2 px-6 transition-colors group-hover/card:border-red-40 dark:border-gray-600 dark:bg-gray-900 dark:group-hover/card:border-gray-200">
@@ -333,7 +341,7 @@ export default function Works() {
                   }
                 </div>
 
-                <h2 className="text-lg lg:text-xl md:-mt-1 font-bold tracking-snug">
+                <h2 className="text-md text-gray-20 md:text-lg lg:text-xl md:-mt-1 font-bold tracking-snug">
                   {work.name}
                 </h2>
                 {/* 
@@ -375,7 +383,8 @@ export default function Works() {
                   </div>
                 </div> */}
               </div>
-            </Link>
+            </motion.a>
+            {/* </Link> */}
           </motion.div>
         ))}
       </div>

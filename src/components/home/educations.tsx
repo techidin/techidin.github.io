@@ -51,7 +51,7 @@ export default function Educations() {
               >
                 <div className="flex h-full items-center justify-between space-x-4 bg-white transition-colors hover:bg-white/90 dark:bg-gray-1000 dark:hover:bg-transparent">
                   <div className="flex-shrink-0 p-6 pr-2">
-                    <h3 className="text-xl lg:text-2xl font-bold leading-none">
+                    <h3 className="text-lg md:text-xl lg:text-2xl font-bold leading-none">
                       {education.major}
                     </h3>
                     <div className="mt-2 text-md md:text-lg leading-snug text-gray-50">

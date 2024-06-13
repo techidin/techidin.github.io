@@ -26,7 +26,7 @@ export default function Header() {
       <header className="border-b border-gray-30 dark:border-gray-500">
         <div className="mx-auto grid max-w-8xl grid-cols-12 px-2 xs:px-6 sm:px-10">
           {/* H1 */}
-          <div className="col-span-10 border-x border-gray-30 p-10 dark:border-gray-500 md:col-span-4">
+          <div className="col-span-10 border-x border-gray-30 px-4 py-6 md:p-10 dark:border-gray-500 md:col-span-4">
             <motion.div
               {...animate}
               variants={variants.fadeInDown}
@@ -34,7 +34,7 @@ export default function Header() {
               className="relative w-fit"
             >
               {/* Logo */}
-              <Logo className="h-10 min-[896px]:h-16 xl:h-18" />
+              <Logo className="h-8 min-[896px]:h-14 xl:h-16" />
 
               {/* Greeting */}
               <motion.div

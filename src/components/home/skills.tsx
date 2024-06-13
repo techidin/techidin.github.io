@@ -105,7 +105,7 @@ export default function Skills() {
                   <a
                     className="group inline-block active:translate-y-[1px]"
                   >
-                    <span className="text-md md:text-lg text-white transition-colors group-hover:text-green-500">
+                    <span className="text-md md:text-lg text-gray-30 transition-colors group-hover:text-white">
                       - {skill.name}
                     </span>
                   </a>
