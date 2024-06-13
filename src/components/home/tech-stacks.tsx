@@ -11,227 +11,227 @@ import { animate, whileInView, transitions, variants } from '@/utils/animations'
 export const techStacks = [
   {
     name: 'JS',
-    logo: <TechIcons.JS className="h-28 w-auto" />,
+    logo: <TechIcons.JS className="h-20 md:h-28 w-auto" />,
   },
   {
     name: 'TypeScript',
-    logo: <TechIcons.TypeScript className="h-28 w-auto" />,
+    logo: <TechIcons.TypeScript className="h-20 md:h-28 w-auto" />,
   },
   {
     name: 'NodeJS',
-    logo: <TechIcons.NodeJS className="h-28 w-auto" />,
+    logo: <TechIcons.NodeJS className="h-20 md:h-28 w-auto" />,
   },
   {
     name: 'NPM',
-    logo: <TechIcons.NPM className="h-28 w-auto" />,
+    logo: <TechIcons.NPM className="h-20 md:h-28 w-auto" />,
   },
   {
     name: 'NestJS',
-    logo: <TechIcons.NestJS className="h-28 w-auto" />,
+    logo: <TechIcons.NestJS className="h-20 md:h-28 w-auto" />,
   },
   {
     name: 'ViteJS',
-    logo: <TechIcons.ViteJS className="h-28 w-auto" />,
+    logo: <TechIcons.ViteJS className="h-20 md:h-28 w-auto" />,
   },
   {
     name: 'VueJS',
-    logo: <TechIcons.VueJS className="h-28 w-auto" />,
+    logo: <TechIcons.VueJS className="h-20 md:h-28 w-auto" />,
   },
   {
     name: 'NuxtJS',
-    logo: <TechIcons.NuxtJS className="h-28 w-auto" />,
+    logo: <TechIcons.NuxtJS className="h-20 md:h-28 w-auto" />,
   },
   {
     name: 'Pinia',
-    logo: <TechIcons.Pinia className="h-28 w-auto" />,
+    logo: <TechIcons.Pinia className="h-20 md:h-28 w-auto" />,
   },
   {
     name: 'ReactJS',
-    logo: <TechIcons.ReactJS className="h-28 w-auto" />,
+    logo: <TechIcons.ReactJS className="h-20 md:h-28 w-auto" />,
   },
   {
     name: 'NextJS',
-    logo: <TechIcons.NextJS className="h-28 w-auto" />,
+    logo: <TechIcons.NextJS className="h-20 md:h-28 w-auto" />,
   },
   {
     name: 'PWA',
-    logo: <TechIcons.PWA className="h-28 w-auto" />,
+    logo: <TechIcons.PWA className="h-20 md:h-28 w-auto" />,
   },
   {
     name: 'WebPack',
-    logo: <TechIcons.WebPack className="h-28 w-auto" />,
+    logo: <TechIcons.WebPack className="h-20 md:h-28 w-auto" />,
   },
   {
     name: 'JQuery',
-    logo: <TechIcons.JQuery className="h-28 w-auto" />,
+    logo: <TechIcons.JQuery className="h-20 md:h-28 w-auto" />,
   },
   {
     name: 'Python',
-    logo: <TechIcons.Python className="h-28 w-auto" />,
+    logo: <TechIcons.Python className="h-20 md:h-28 w-auto" />,
   },
   {
     name: 'Django',
-    logo: <TechIcons.Django className="h-28 w-auto" />,
+    logo: <TechIcons.Django className="h-20 md:h-28 w-auto" />,
   },
   {
     name: 'PHP',
-    logo: <TechIcons.PHP className="h-28 w-auto" />,
+    logo: <TechIcons.PHP className="h-20 md:h-28 w-auto" />,
   },
   {
     name: 'Laravel',
-    logo: <TechIcons.Laravel className="h-28 w-auto" />,
+    logo: <TechIcons.Laravel className="h-20 md:h-28 w-auto" />,
   },
   {
     name: 'Flutter',
-    logo: <TechIcons.Flutter className="h-28 w-auto" />,
+    logo: <TechIcons.Flutter className="h-20 md:h-28 w-auto" />,
   },
   {
     name: 'Android',
-    logo: <TechIcons.Android className="h-28 w-auto" />,
+    logo: <TechIcons.Android className="h-20 md:h-28 w-auto" />,
   },
   {
     name: 'PostgreSQL',
-    logo: <TechIcons.PostgreSQL className="h-28 w-auto" />,
+    logo: <TechIcons.PostgreSQL className="h-20 md:h-28 w-auto" />,
   },
   {
     name: 'MySQL',
-    logo: <TechIcons.MySQL className="h-28 w-auto" />,
+    logo: <TechIcons.MySQL className="h-20 md:h-28 w-auto" />,
   },
   {
     name: 'GraphQL',
-    logo: <TechIcons.GraphQL className="h-28 w-auto" />,
+    logo: <TechIcons.GraphQL className="h-20 md:h-28 w-auto" />,
   },
   {
     name: 'MongoDB',
-    logo: <TechIcons.MongoDB className="h-28 w-auto" />,
+    logo: <TechIcons.MongoDB className="h-20 md:h-28 w-auto" />,
   },
   {
     name: 'Redis',
-    logo: <TechIcons.Redis className="h-28 w-auto" />,
+    logo: <TechIcons.Redis className="h-20 md:h-28 w-auto" />,
   },
   {
     name: 'HTML5',
-    logo: <TechIcons.HTML5 className="h-28 w-auto" />,
+    logo: <TechIcons.HTML5 className="h-20 md:h-28 w-auto" />,
   },
   {
     name: 'CSS3',
-    logo: <TechIcons.CSS3 className="h-28 w-auto" />,
+    logo: <TechIcons.CSS3 className="h-20 md:h-28 w-auto" />,
   },
   {
     name: 'TailwindCSS',
-    logo: <TechIcons.TailwindCSS className="h-28 w-auto" />,
+    logo: <TechIcons.TailwindCSS className="h-20 md:h-28 w-auto" />,
   },
   {
     name: 'BulmaCSS',
-    logo: <TechIcons.BulmaCSS className="h-28 w-auto" />,
+    logo: <TechIcons.BulmaCSS className="h-20 md:h-28 w-auto" />,
   },
   {
     name: 'Bootstrap',
-    logo: <TechIcons.Bootstrap className="h-28 w-auto" />,
+    logo: <TechIcons.Bootstrap className="h-20 md:h-28 w-auto" />,
   },
   {
     name: 'HeadlessUI',
-    logo: <TechIcons.HeadlessUI className="h-28 w-auto" />,
+    logo: <TechIcons.HeadlessUI className="h-20 md:h-28 w-auto" />,
   },
   {
     name: 'Sass',
-    logo: <TechIcons.Sass className="h-28 w-auto" />,
+    logo: <TechIcons.Sass className="h-20 md:h-28 w-auto" />,
   },
   {
     name: 'AWS',
-    logo: <TechIcons.AWS className="h-28 w-auto" />,
+    logo: <TechIcons.AWS className="h-20 md:h-28 w-auto" />,
   },
   {
     name: 'EC2',
-    logo: <TechIcons.EC2 className="h-28 w-auto" />,
+    logo: <TechIcons.EC2 className="h-20 md:h-28 w-auto" />,
   },
   {
     name: 'GoogleCloud',
-    logo: <TechIcons.GoogleCloud className="h-28 w-auto" />,
+    logo: <TechIcons.GoogleCloud className="h-20 md:h-28 w-auto" />,
   },
   {
     name: 'DigitalOcean',
-    logo: <TechIcons.DigitalOcean className="h-28 w-auto" />,
+    logo: <TechIcons.DigitalOcean className="h-20 md:h-28 w-auto" />,
   },
   {
     name: 'Serverless',
-    logo: <TechIcons.Serverless className="h-28 w-auto" />,
+    logo: <TechIcons.Serverless className="h-20 md:h-28 w-auto" />,
   },
   {
     name: 'Analytics',
-    logo: <TechIcons.Analytics className="h-28 w-auto" />,
+    logo: <TechIcons.Analytics className="h-20 md:h-28 w-auto" />,
   },
   {
     name: 'Firebase',
-    logo: <TechIcons.Firebase className="h-28 w-auto" />,
+    logo: <TechIcons.Firebase className="h-20 md:h-28 w-auto" />,
   },
   {
     name: 'Jira',
-    logo: <TechIcons.Jira className="h-28 w-auto" />,
+    logo: <TechIcons.Jira className="h-20 md:h-28 w-auto" />,
   },
   {
     name: 'Atlassian',
-    logo: <TechIcons.Atlassian className="h-28 w-auto" />,
+    logo: <TechIcons.Atlassian className="h-20 md:h-28 w-auto" />,
   },
   {
     name: 'AirTable',
-    logo: <TechIcons.AirTable className="h-28 w-auto" />,
+    logo: <TechIcons.AirTable className="h-20 md:h-28 w-auto" />,
   },
   {
     name: 'ESLint',
-    logo: <TechIcons.ESLint className="h-28 w-auto" />,
+    logo: <TechIcons.ESLint className="h-20 md:h-28 w-auto" />,
   },
   {
     name: 'Prettier',
-    logo: <TechIcons.Prettier className="h-28 w-auto" />,
+    logo: <TechIcons.Prettier className="h-20 md:h-28 w-auto" />,
   },
   {
     name: 'Git',
-    logo: <TechIcons.Git className="h-28 w-auto" />,
+    logo: <TechIcons.Git className="h-20 md:h-28 w-auto" />,
   },
   {
     name: 'Github',
-    logo: <TechIcons.Github className="h-28 w-auto" />,
+    logo: <TechIcons.Github className="h-20 md:h-28 w-auto" />,
   },
   {
     name: 'Gitlab',
-    logo: <TechIcons.Gitlab className="h-28 w-auto" />,
+    logo: <TechIcons.Gitlab className="h-20 md:h-28 w-auto" />,
   },
   {
     name: 'Bitbucket',
-    logo: <TechIcons.Bitbucket className="h-28 w-auto" />,
+    logo: <TechIcons.Bitbucket className="h-20 md:h-28 w-auto" />,
   },
   {
     name: 'Docker',
-    logo: <TechIcons.Docker className="h-28 w-auto" />,
+    logo: <TechIcons.Docker className="h-20 md:h-28 w-auto" />,
   },
   {
     name: 'Ubuntu',
-    logo: <TechIcons.Ubuntu className="h-28 w-auto" />,
+    logo: <TechIcons.Ubuntu className="h-20 md:h-28 w-auto" />,
   },
   {
     name: 'VSCode',
-    logo: <TechIcons.VSCode className="h-28 w-auto" />,
+    logo: <TechIcons.VSCode className="h-20 md:h-28 w-auto" />,
   },
   {
     name: 'Postman',
-    logo: <TechIcons.Postman className="h-28 w-auto" />,
+    logo: <TechIcons.Postman className="h-20 md:h-28 w-auto" />,
   },
   {
     name: 'Swagger',
-    logo: <TechIcons.Swagger className="h-28 w-auto" />,
+    logo: <TechIcons.Swagger className="h-20 md:h-28 w-auto" />,
   },
   {
     name: 'JSON',
-    logo: <TechIcons.JSON className="h-28 w-auto" />,
+    logo: <TechIcons.JSON className="h-20 md:h-28 w-auto" />,
   },
   {
     name: 'Slack',
-    logo: <TechIcons.Slack className="h-28 w-auto" />,
+    logo: <TechIcons.Slack className="h-20 md:h-28 w-auto" />,
   },
   {
     name: 'Figma',
-    logo: <TechIcons.Figma className="h-28 w-auto" />,
+    logo: <TechIcons.Figma className="h-20 md:h-28 w-auto" />,
   },
 ]
 
