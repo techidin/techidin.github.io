@@ -333,7 +333,7 @@ export default function Works() {
                   }
                 </div>
 
-                <h2 className="text-lg lg:text-xl -mt-1 font-bold tracking-snug">
+                <h2 className="text-lg lg:text-xl md:-mt-1 font-bold tracking-snug">
                   {work.name}
                 </h2>
                 {/* 
