@@ -320,19 +320,19 @@ export default function Works() {
               <div className="relative flex h-full flex-col items-start bg-white/50 p-6 md:p-8 transition-colors group-hover/card:bg-transparent dark:bg-gray-950/50">
                 <div className="inline-flex w-full justify-end">
                   { work.tag === 'API' ? (
-                      <div className="-mr-8 -mt-8 items-center rounded-tr-2xl rounded-bl-xl border border-red-30 bg-white py-2 px-6 transition-colors group-hover/card:border-red-40 dark:border-gray-600 dark:bg-gray-900 dark:group-hover/card:border-gray-200">
+                      <div className="-mr-6 md:-mr-8 -mt-6 md:-mt-8 items-center rounded-tr-2xl rounded-bl-xl border border-red-30 bg-white py-2 px-6 transition-colors group-hover/card:border-red-40 dark:border-gray-600 dark:bg-gray-900 dark:group-hover/card:border-gray-200">
                         <div className="text-sm font-bold leading-none text-gray-1000 dark:text-red-500">
                           {work.tag}
                         </div>
                       </div>
                     ) : work.tag === 'WEB' ? (
-                      <div className="-mr-8 -mt-8 items-center rounded-tr-2xl rounded-bl-xl border border-cyan-30 bg-white py-2 px-6 transition-colors group-hover/card:border-cyan-40 dark:border-gray-600 dark:bg-gray-900 dark:group-hover/card:border-gray-200">
+                      <div className="-mr-6 md:-mr-8 -mt-6 md:-mt-8 items-center rounded-tr-2xl rounded-bl-xl border border-cyan-30 bg-white py-2 px-6 transition-colors group-hover/card:border-cyan-40 dark:border-gray-600 dark:bg-gray-900 dark:group-hover/card:border-gray-200">
                         <div className="text-sm font-bold leading-none text-gray-1000 dark:text-cyan-500">
                           {work.tag}
                         </div>
                       </div>
                     ) : (
-                      <div className="-mr-8 -mt-8 items-center rounded-tr-2xl rounded-bl-xl border border-yellow-30 bg-white py-2 px-6 transition-colors group-hover/card:border-yellow-40 dark:border-gray-600 dark:bg-gray-900 dark:group-hover/card:border-gray-200">
+                      <div className="-mr-6 md:-mr-8 -mt-6 md:-mt-8 items-center rounded-tr-2xl rounded-bl-xl border border-yellow-30 bg-white py-2 px-6 transition-colors group-hover/card:border-yellow-40 dark:border-gray-600 dark:bg-gray-900 dark:group-hover/card:border-gray-200">
                         <div className="text-sm font-bold leading-none text-gray-1000 dark:text-yellow-500">
                           {work.tag}
                         </div>
