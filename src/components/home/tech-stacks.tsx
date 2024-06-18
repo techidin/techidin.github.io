@@ -8,7 +8,7 @@ import TechIcons from '@/components/svgs/tech-icons'
 import { UntickIllustration } from '@/components/home/experiments/untick-illustration'
 import { animate, whileInView, transitions, variants } from '@/utils/animations'
 
-export const techStacks = [
+export const programmingLanguageStacks = [
   {
     name: 'JS',
     logo: <TechIcons.JS className="h-20 md:h-28 w-auto" />,
@@ -18,21 +18,43 @@ export const techStacks = [
     logo: <TechIcons.TypeScript className="h-20 md:h-28 w-auto" />,
   },
   {
-    name: 'NodeJS',
-    logo: <TechIcons.NodeJS className="h-20 md:h-28 w-auto" />,
+    name: 'PHP',
+    logo: <TechIcons.PHP className="h-20 md:h-28 w-auto" />,
   },
   {
-    name: 'NPM',
-    logo: <TechIcons.NPM className="h-20 md:h-28 w-auto" />,
+    name: 'Dart',
+    logo: <TechIcons.PHP className="h-20 md:h-28 w-auto" />,
+  },
+]
+
+export const backendStacks = [
+  {
+    name: 'NodeJS',
+    logo: <TechIcons.NodeJS className="h-20 md:h-28 w-auto" />,
   },
   {
     name: 'NestJS',
     logo: <TechIcons.NestJS className="h-20 md:h-28 w-auto" />,
   },
   {
-    name: 'ViteJS',
-    logo: <TechIcons.ViteJS className="h-20 md:h-28 w-auto" />,
+    name: 'KoaJS',
+    logo: <TechIcons.NestJS className="h-20 md:h-28 w-auto" />,
   },
+  {
+    name: 'ExpressJS',
+    logo: <TechIcons.NestJS className="h-20 md:h-28 w-auto" />,
+  },
+  {
+    name: 'Django/Django REST',
+    logo: <TechIcons.Django className="h-20 md:h-28 w-auto" />,
+  },
+  {
+    name: 'Lumen/Laravel',
+    logo: <TechIcons.Laravel className="h-20 md:h-28 w-auto" />,
+  },
+]
+
+export const frontendStacks = [
   {
     name: 'VueJS',
     logo: <TechIcons.VueJS className="h-20 md:h-28 w-auto" />,
@@ -40,10 +62,6 @@ export const techStacks = [
   {
     name: 'NuxtJS',
     logo: <TechIcons.NuxtJS className="h-20 md:h-28 w-auto" />,
-  },
-  {
-    name: 'Pinia',
-    logo: <TechIcons.Pinia className="h-20 md:h-28 w-auto" />,
   },
   {
     name: 'ReactJS',
@@ -54,32 +72,8 @@ export const techStacks = [
     logo: <TechIcons.NextJS className="h-20 md:h-28 w-auto" />,
   },
   {
-    name: 'PWA',
-    logo: <TechIcons.PWA className="h-20 md:h-28 w-auto" />,
-  },
-  {
-    name: 'WebPack',
-    logo: <TechIcons.WebPack className="h-20 md:h-28 w-auto" />,
-  },
-  {
-    name: 'JQuery',
-    logo: <TechIcons.JQuery className="h-20 md:h-28 w-auto" />,
-  },
-  {
-    name: 'Python',
-    logo: <TechIcons.Python className="h-20 md:h-28 w-auto" />,
-  },
-  {
-    name: 'Django',
-    logo: <TechIcons.Django className="h-20 md:h-28 w-auto" />,
-  },
-  {
-    name: 'PHP',
-    logo: <TechIcons.PHP className="h-20 md:h-28 w-auto" />,
-  },
-  {
-    name: 'Laravel',
-    logo: <TechIcons.Laravel className="h-20 md:h-28 w-auto" />,
+    name: 'ViteJS',
+    logo: <TechIcons.ViteJS className="h-20 md:h-28 w-auto" />,
   },
   {
     name: 'Flutter',
@@ -90,11 +84,46 @@ export const techStacks = [
     logo: <TechIcons.Android className="h-20 md:h-28 w-auto" />,
   },
   {
+    name: 'PWA',
+    logo: <TechIcons.PWA className="h-20 md:h-28 w-auto" />,
+  },
+  {
+    name: 'Pinia',
+    logo: <TechIcons.Pinia className="h-20 md:h-28 w-auto" />,
+  },
+  {
+    name: 'WebPack',
+    logo: <TechIcons.WebPack className="h-20 md:h-28 w-auto" />,
+  },
+  {
+    name: 'JQuery',
+    logo: <TechIcons.JQuery className="h-20 md:h-28 w-auto" />,
+  },
+  {
+    name: 'Sass',
+    logo: <TechIcons.Sass className="h-20 md:h-28 w-auto" />,
+  },
+  {
+    name: 'HTML5',
+    logo: <TechIcons.HTML5 className="h-20 md:h-28 w-auto" />,
+  },
+  {
+    name: 'CSS3',
+    logo: <TechIcons.CSS3 className="h-20 md:h-28 w-auto" />,
+  },
+]
+
+export const databaseStacks = [
+  {
     name: 'PostgreSQL',
     logo: <TechIcons.PostgreSQL className="h-20 md:h-28 w-auto" />,
   },
   {
     name: 'MySQL',
+    logo: <TechIcons.MySQL className="h-20 md:h-28 w-auto" />,
+  },
+  {
+    name: 'MariaDB',
     logo: <TechIcons.MySQL className="h-20 md:h-28 w-auto" />,
   },
   {
@@ -106,36 +135,54 @@ export const techStacks = [
     logo: <TechIcons.MongoDB className="h-20 md:h-28 w-auto" />,
   },
   {
+    name: 'DyanmoDB',
+    logo: <TechIcons.MongoDB className="h-20 md:h-28 w-auto" />,
+  },
+  {
+    name: 'Firestore',
+    logo: <TechIcons.MongoDB className="h-20 md:h-28 w-auto" />,
+  },
+  {
     name: 'Redis',
     logo: <TechIcons.Redis className="h-20 md:h-28 w-auto" />,
   },
+]
+
+export const cssFrameworkStacks = [
   {
-    name: 'HTML5',
-    logo: <TechIcons.HTML5 className="h-20 md:h-28 w-auto" />,
-  },
-  {
-    name: 'CSS3',
-    logo: <TechIcons.CSS3 className="h-20 md:h-28 w-auto" />,
-  },
-  {
-    name: 'TailwindCSS',
+    name: 'Tailwind CSS',
     logo: <TechIcons.TailwindCSS className="h-20 md:h-28 w-auto" />,
   },
   {
-    name: 'BulmaCSS',
+    name: 'Bulma CSS',
     logo: <TechIcons.BulmaCSS className="h-20 md:h-28 w-auto" />,
   },
   {
-    name: 'Bootstrap',
+    name: 'Bootstrap CSS',
     logo: <TechIcons.Bootstrap className="h-20 md:h-28 w-auto" />,
   },
   {
-    name: 'HeadlessUI',
-    logo: <TechIcons.HeadlessUI className="h-20 md:h-28 w-auto" />,
+    name: 'Materialize CSS',
+    logo: <TechIcons.Bootstrap className="h-20 md:h-28 w-auto" />,
   },
   {
-    name: 'Sass',
-    logo: <TechIcons.Sass className="h-20 md:h-28 w-auto" />,
+    name: 'Headless UI',
+    logo: <TechIcons.HeadlessUI className="h-20 md:h-28 w-auto" />,
+  },
+]
+
+export const cloudStacks = [
+  {
+    name: 'Serverless',
+    logo: <TechIcons.Serverless className="h-20 md:h-28 w-auto" />,
+  },
+  {
+    name: 'Docker',
+    logo: <TechIcons.Docker className="h-20 md:h-28 w-auto" />,
+  },
+  {
+    name: 'Kubernetes',
+    logo: <TechIcons.Docker className="h-20 md:h-28 w-auto" />,
   },
   {
     name: 'AWS',
@@ -146,25 +193,98 @@ export const techStacks = [
     logo: <TechIcons.EC2 className="h-20 md:h-28 w-auto" />,
   },
   {
-    name: 'GoogleCloud',
+    name: 'S3',
+    logo: <TechIcons.EC2 className="h-20 md:h-28 w-auto" />,
+  },
+  {
+    name: 'Lambda',
+    logo: <TechIcons.EC2 className="h-20 md:h-28 w-auto" />,
+  },
+  {
+    name: 'Cloud Front',
+    logo: <TechIcons.EC2 className="h-20 md:h-28 w-auto" />,
+  },
+  {
+    name: 'Route 53',
+    logo: <TechIcons.EC2 className="h-20 md:h-28 w-auto" />,
+  },
+  {
+    name: 'ELB',
+    logo: <TechIcons.EC2 className="h-20 md:h-28 w-auto" />,
+  },
+  {
+    name: 'Google Cloud',
     logo: <TechIcons.GoogleCloud className="h-20 md:h-28 w-auto" />,
   },
   {
-    name: 'DigitalOcean',
-    logo: <TechIcons.DigitalOcean className="h-20 md:h-28 w-auto" />,
-  },
-  {
-    name: 'Serverless',
-    logo: <TechIcons.Serverless className="h-20 md:h-28 w-auto" />,
+    name: 'GCP Function',
+    logo: <TechIcons.GoogleCloud className="h-20 md:h-28 w-auto" />,
   },
   {
     name: 'Analytics',
     logo: <TechIcons.Analytics className="h-20 md:h-28 w-auto" />,
   },
   {
+    name: 'GTM',
+    logo: <TechIcons.Analytics className="h-20 md:h-28 w-auto" />,
+  },
+  {
     name: 'Firebase',
     logo: <TechIcons.Firebase className="h-20 md:h-28 w-auto" />,
   },
+  {
+    name: 'Digital Ocean',
+    logo: <TechIcons.DigitalOcean className="h-20 md:h-28 w-auto" />,
+  },
+  {
+    name: 'Droplets',
+    logo: <TechIcons.DigitalOcean className="h-20 md:h-28 w-auto" />,
+  },
+  {
+    name: 'Godaddy',
+    logo: <TechIcons.DigitalOcean className="h-20 md:h-28 w-auto" />,
+  },
+  {
+    name: 'Vercel',
+    logo: <TechIcons.DigitalOcean className="h-20 md:h-28 w-auto" />,
+  },
+]
+
+export const messageQueuingStacks = [
+  {
+    name: 'RabbitMQ',
+    logo: <TechIcons.Figma className="h-20 md:h-28 w-auto" />,
+  },
+  {
+    name: 'SQS',
+    logo: <TechIcons.Figma className="h-20 md:h-28 w-auto" />,
+  },
+  {
+    name: 'SNS',
+    logo: <TechIcons.Figma className="h-20 md:h-28 w-auto" />,
+  },
+]
+
+export const thirdPartyIntegrationsStacks = [
+  {
+    name: 'Twilio',
+    logo: <TechIcons.Figma className="h-20 md:h-28 w-auto" />,
+  },
+  {
+    name: 'Xendit',
+    logo: <TechIcons.AirTable className="h-20 md:h-28 w-auto" />,
+  },
+  {
+    name: 'Qontak',
+    logo: <TechIcons.AirTable className="h-20 md:h-28 w-auto" />,
+  },
+  {
+    name: 'AirTable',
+    logo: <TechIcons.AirTable className="h-20 md:h-28 w-auto" />,
+  },
+]
+
+export const projectManagementStacks = [
   {
     name: 'Jira',
     logo: <TechIcons.Jira className="h-20 md:h-28 w-auto" />,
@@ -174,17 +294,20 @@ export const techStacks = [
     logo: <TechIcons.Atlassian className="h-20 md:h-28 w-auto" />,
   },
   {
-    name: 'AirTable',
-    logo: <TechIcons.AirTable className="h-20 md:h-28 w-auto" />,
+    name: 'Trello',
+    logo: <TechIcons.Atlassian className="h-20 md:h-28 w-auto" />,
   },
   {
-    name: 'ESLint',
-    logo: <TechIcons.ESLint className="h-20 md:h-28 w-auto" />,
+    name: 'ClickUp',
+    logo: <TechIcons.Atlassian className="h-20 md:h-28 w-auto" />,
   },
   {
-    name: 'Prettier',
-    logo: <TechIcons.Prettier className="h-20 md:h-28 w-auto" />,
+    name: 'Asana',
+    logo: <TechIcons.Atlassian className="h-20 md:h-28 w-auto" />,
   },
+]
+
+export const sourceCodeManagementStacks = [
   {
     name: 'Git',
     logo: <TechIcons.Git className="h-20 md:h-28 w-auto" />,
@@ -201,14 +324,28 @@ export const techStacks = [
     name: 'Bitbucket',
     logo: <TechIcons.Bitbucket className="h-20 md:h-28 w-auto" />,
   },
+]
+
+export const extensionStacks = [
   {
-    name: 'Docker',
-    logo: <TechIcons.Docker className="h-20 md:h-28 w-auto" />,
+    name: 'NPM',
+    logo: <TechIcons.NPM className="h-20 md:h-28 w-auto" />,
   },
   {
-    name: 'Ubuntu',
-    logo: <TechIcons.Ubuntu className="h-20 md:h-28 w-auto" />,
+    name: 'Yarn',
+    logo: <TechIcons.NPM className="h-20 md:h-28 w-auto" />,
   },
+  {
+    name: 'ESLint',
+    logo: <TechIcons.ESLint className="h-20 md:h-28 w-auto" />,
+  },
+  {
+    name: 'Prettier',
+    logo: <TechIcons.Prettier className="h-20 md:h-28 w-auto" />,
+  },
+]
+
+export const toolsStacks = [
   {
     name: 'VSCode',
     logo: <TechIcons.VSCode className="h-20 md:h-28 w-auto" />,
@@ -222,16 +359,23 @@ export const techStacks = [
     logo: <TechIcons.Swagger className="h-20 md:h-28 w-auto" />,
   },
   {
-    name: 'JSON',
-    logo: <TechIcons.JSON className="h-20 md:h-28 w-auto" />,
-  },
-  {
     name: 'Slack',
     logo: <TechIcons.Slack className="h-20 md:h-28 w-auto" />,
   },
   {
     name: 'Figma',
     logo: <TechIcons.Figma className="h-20 md:h-28 w-auto" />,
+  },
+]
+
+export const osStacks = [
+  {
+    name: 'MacOS',
+    logo: <TechIcons.Ubuntu className="h-20 md:h-28 w-auto" />,
+  },
+  {
+    name: 'Ubuntu',
+    logo: <TechIcons.Ubuntu className="h-20 md:h-28 w-auto" />,
   },
 ]
 
@@ -242,15 +386,410 @@ export default function TechStacks() {
       {/* Title */}
       <SectionTitle title="Tech Stacks" icon={Icons.Heart} />
 
-      {/* List of tech stacks */}
       <motion.div
         {...whileInView}
         whileInView="show"
         transition={transitions.default}
         variants={variants.fadeInDown}
-        className="grid grid-cols-4 md:grid-cols-6 lg:grid-cols-8 gap-2 md:gap-4 mt-4 xs:mt-6"
+        className="flex w-full mt-8 ml-8"
       >
-        {techStacks.map((stack) => (
+        <span className="italic text-md md:text-lg text-white transition-colors group-hover:text-green-500">
+          Programming Languages
+        </span>
+      </motion.div>
+
+      <motion.div
+        {...whileInView}
+        whileInView="show"
+        transition={transitions.default}
+        variants={variants.fadeInDown}
+        className="grid grid-cols-4 md:grid-cols-6 lg:grid-cols-8 gap-2 md:gap-4"
+      >
+        {programmingLanguageStacks.map((stack) => (
+          <div
+            key={stack.name}
+            className="active:translate-y-[1px] flex flex-col justify-center items-center"
+          >
+            {stack.logo}
+            <span className="text-xs -mt-2">
+              {stack.name}
+            </span>
+          </div>
+        ))}
+      </motion.div>
+
+      <motion.div
+        {...whileInView}
+        whileInView="show"
+        transition={transitions.default}
+        variants={variants.fadeInDown}
+        className="flex w-full mt-16 ml-8"
+      >
+        <span className="italic text-md md:text-lg text-white transition-colors group-hover:text-green-500">
+          Back-End Technologies
+        </span>
+      </motion.div>
+
+      <motion.div
+        {...whileInView}
+        whileInView="show"
+        transition={transitions.default}
+        variants={variants.fadeInDown}
+        className="grid grid-cols-4 md:grid-cols-6 lg:grid-cols-8 gap-2 md:gap-4"
+      >
+        {backendStacks.map((stack) => (
+          <div
+            key={stack.name}
+            className="active:translate-y-[1px] flex flex-col justify-center items-center"
+          >
+            {stack.logo}
+            <span className="text-xs -mt-2">
+              {stack.name}
+            </span>
+          </div>
+        ))}
+      </motion.div>
+
+      <motion.div
+        {...whileInView}
+        whileInView="show"
+        transition={transitions.default}
+        variants={variants.fadeInDown}
+        className="flex w-full mt-16 ml-8"
+      >
+        <span className="italic text-md md:text-lg text-white transition-colors group-hover:text-green-500">
+          Front-End Technologies
+        </span>
+      </motion.div>
+
+      <motion.div
+        {...whileInView}
+        whileInView="show"
+        transition={transitions.default}
+        variants={variants.fadeInDown}
+        className="grid grid-cols-4 md:grid-cols-6 lg:grid-cols-8 gap-2 md:gap-4"
+      >
+        {frontendStacks.map((stack) => (
+          <div
+            key={stack.name}
+            className="active:translate-y-[1px] flex flex-col justify-center items-center"
+          >
+            {stack.logo}
+            <span className="text-xs -mt-2">
+              {stack.name}
+            </span>
+          </div>
+        ))}
+      </motion.div>
+
+      <motion.div
+        {...whileInView}
+        whileInView="show"
+        transition={transitions.default}
+        variants={variants.fadeInDown}
+        className="flex w-full mt-16 ml-8"
+      >
+        <span className="italic text-md md:text-lg text-white transition-colors group-hover:text-green-500">
+          Database
+        </span>
+      </motion.div>
+
+      <motion.div
+        {...whileInView}
+        whileInView="show"
+        transition={transitions.default}
+        variants={variants.fadeInDown}
+        className="grid grid-cols-4 md:grid-cols-6 lg:grid-cols-8 gap-2 md:gap-4"
+      >
+        {databaseStacks.map((stack) => (
+          <div
+            key={stack.name}
+            className="active:translate-y-[1px] flex flex-col justify-center items-center"
+          >
+            {stack.logo}
+            <span className="text-xs -mt-2">
+              {stack.name}
+            </span>
+          </div>
+        ))}
+      </motion.div>
+
+      <motion.div
+        {...whileInView}
+        whileInView="show"
+        transition={transitions.default}
+        variants={variants.fadeInDown}
+        className="flex w-full mt-16 ml-8"
+      >
+        <span className="italic text-md md:text-lg text-white transition-colors group-hover:text-green-500">
+          CSS Frameworks
+        </span>
+      </motion.div>
+
+      <motion.div
+        {...whileInView}
+        whileInView="show"
+        transition={transitions.default}
+        variants={variants.fadeInDown}
+        className="grid grid-cols-4 md:grid-cols-6 lg:grid-cols-8 gap-2 md:gap-4"
+      >
+        {cssFrameworkStacks.map((stack) => (
+          <div
+            key={stack.name}
+            className="active:translate-y-[1px] flex flex-col justify-center items-center"
+          >
+            {stack.logo}
+            <span className="text-xs -mt-2">
+              {stack.name}
+            </span>
+          </div>
+        ))}
+      </motion.div>
+
+      <motion.div
+        {...whileInView}
+        whileInView="show"
+        transition={transitions.default}
+        variants={variants.fadeInDown}
+        className="flex w-full mt-16 ml-8"
+      >
+        <span className="italic text-md md:text-lg text-white transition-colors group-hover:text-green-500">
+          Cloud Computing
+        </span>
+      </motion.div>
+
+      <motion.div
+        {...whileInView}
+        whileInView="show"
+        transition={transitions.default}
+        variants={variants.fadeInDown}
+        className="grid grid-cols-4 md:grid-cols-6 lg:grid-cols-8 gap-2 md:gap-4"
+      >
+        {cloudStacks.map((stack) => (
+          <div
+            key={stack.name}
+            className="active:translate-y-[1px] flex flex-col justify-center items-center"
+          >
+            {stack.logo}
+            <span className="text-xs -mt-2">
+              {stack.name}
+            </span>
+          </div>
+        ))}
+      </motion.div>
+
+      <motion.div
+        {...whileInView}
+        whileInView="show"
+        transition={transitions.default}
+        variants={variants.fadeInDown}
+        className="flex w-full mt-16 ml-8"
+      >
+        <span className="italic text-md md:text-lg text-white transition-colors group-hover:text-green-500">
+          Message Queuing Technologies
+        </span>
+      </motion.div>
+
+      <motion.div
+        {...whileInView}
+        whileInView="show"
+        transition={transitions.default}
+        variants={variants.fadeInDown}
+        className="grid grid-cols-4 md:grid-cols-6 lg:grid-cols-8 gap-2 md:gap-4"
+      >
+        {messageQueuingStacks.map((stack) => (
+          <div
+            key={stack.name}
+            className="active:translate-y-[1px] flex flex-col justify-center items-center"
+          >
+            {stack.logo}
+            <span className="text-xs -mt-2">
+              {stack.name}
+            </span>
+          </div>
+        ))}
+      </motion.div>
+
+      <motion.div
+        {...whileInView}
+        whileInView="show"
+        transition={transitions.default}
+        variants={variants.fadeInDown}
+        className="flex w-full mt-16 ml-8"
+      >
+        <span className="italic text-md md:text-lg text-white transition-colors group-hover:text-green-500">
+          Third Party Integrations
+        </span>
+      </motion.div>
+
+      <motion.div
+        {...whileInView}
+        whileInView="show"
+        transition={transitions.default}
+        variants={variants.fadeInDown}
+        className="grid grid-cols-4 md:grid-cols-6 lg:grid-cols-8 gap-2 md:gap-4"
+      >
+        {thirdPartyIntegrationsStacks.map((stack) => (
+          <div
+            key={stack.name}
+            className="active:translate-y-[1px] flex flex-col justify-center items-center"
+          >
+            {stack.logo}
+            <span className="text-xs -mt-2">
+              {stack.name}
+            </span>
+          </div>
+        ))}
+      </motion.div>
+
+      <motion.div
+        {...whileInView}
+        whileInView="show"
+        transition={transitions.default}
+        variants={variants.fadeInDown}
+        className="flex w-full mt-16 ml-8"
+      >
+        <span className="italic text-md md:text-lg text-white transition-colors group-hover:text-green-500">
+          Project Management
+        </span>
+      </motion.div>
+
+      <motion.div
+        {...whileInView}
+        whileInView="show"
+        transition={transitions.default}
+        variants={variants.fadeInDown}
+        className="grid grid-cols-4 md:grid-cols-6 lg:grid-cols-8 gap-2 md:gap-4"
+      >
+        {projectManagementStacks.map((stack) => (
+          <div
+            key={stack.name}
+            className="active:translate-y-[1px] flex flex-col justify-center items-center"
+          >
+            {stack.logo}
+            <span className="text-xs -mt-2">
+              {stack.name}
+            </span>
+          </div>
+        ))}
+      </motion.div>
+
+      <motion.div
+        {...whileInView}
+        whileInView="show"
+        transition={transitions.default}
+        variants={variants.fadeInDown}
+        className="flex w-full mt-16 ml-8"
+      >
+        <span className="italic text-md md:text-lg text-white transition-colors group-hover:text-green-500">
+          Source Code Management
+        </span>
+      </motion.div>
+
+      <motion.div
+        {...whileInView}
+        whileInView="show"
+        transition={transitions.default}
+        variants={variants.fadeInDown}
+        className="grid grid-cols-4 md:grid-cols-6 lg:grid-cols-8 gap-2 md:gap-4"
+      >
+        {sourceCodeManagementStacks.map((stack) => (
+          <div
+            key={stack.name}
+            className="active:translate-y-[1px] flex flex-col justify-center items-center"
+          >
+            {stack.logo}
+            <span className="text-xs -mt-2">
+              {stack.name}
+            </span>
+          </div>
+        ))}
+      </motion.div>
+
+      <motion.div
+        {...whileInView}
+        whileInView="show"
+        transition={transitions.default}
+        variants={variants.fadeInDown}
+        className="flex w-full mt-16 ml-8"
+      >
+        <span className="italic text-md md:text-lg text-white transition-colors group-hover:text-green-500">
+          Extensions
+        </span>
+      </motion.div>
+
+      <motion.div
+        {...whileInView}
+        whileInView="show"
+        transition={transitions.default}
+        variants={variants.fadeInDown}
+        className="grid grid-cols-4 md:grid-cols-6 lg:grid-cols-8 gap-2 md:gap-4"
+      >
+        {extensionStacks.map((stack) => (
+          <div
+            key={stack.name}
+            className="active:translate-y-[1px] flex flex-col justify-center items-center"
+          >
+            {stack.logo}
+            <span className="text-xs -mt-2">
+              {stack.name}
+            </span>
+          </div>
+        ))}
+      </motion.div>
+
+      <motion.div
+        {...whileInView}
+        whileInView="show"
+        transition={transitions.default}
+        variants={variants.fadeInDown}
+        className="flex w-full mt-16 ml-8"
+      >
+        <span className="italic text-md md:text-lg text-white transition-colors group-hover:text-green-500">
+          Tools
+        </span>
+      </motion.div>
+
+      <motion.div
+        {...whileInView}
+        whileInView="show"
+        transition={transitions.default}
+        variants={variants.fadeInDown}
+        className="grid grid-cols-4 md:grid-cols-6 lg:grid-cols-8 gap-2 md:gap-4"
+      >
+        {toolsStacks.map((stack) => (
+          <div
+            key={stack.name}
+            className="active:translate-y-[1px] flex flex-col justify-center items-center"
+          >
+            {stack.logo}
+            <span className="text-xs -mt-2">
+              {stack.name}
+            </span>
+          </div>
+        ))}
+      </motion.div>
+
+      <motion.div
+        {...whileInView}
+        whileInView="show"
+        transition={transitions.default}
+        variants={variants.fadeInDown}
+        className="flex w-full mt-16 ml-8"
+      >
+        <span className="italic text-md md:text-lg text-white transition-colors group-hover:text-green-500">
+          System Operation
+        </span>
+      </motion.div>
+
+      <motion.div
+        {...whileInView}
+        whileInView="show"
+        transition={transitions.default}
+        variants={variants.fadeInDown}
+        className="grid grid-cols-4 md:grid-cols-6 lg:grid-cols-8 gap-2 md:gap-4"
+      >
+        {osStacks.map((stack) => (
           <div
             key={stack.name}
             className="active:translate-y-[1px] flex flex-col justify-center items-center"
