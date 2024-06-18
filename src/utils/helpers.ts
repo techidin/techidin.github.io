@@ -4,17 +4,17 @@ export function generateGreeting(): string {
   const hour = date.getHours()
 
   if (hour >= 5 && hour < 8) {
-    return 'Good early morning!'
+    return 'Good Early Morning!'
   } else if (hour >= 5 && hour < 12) {
-    return 'Good morning!'
+    return 'Good Morning!'
   } else if (hour >= 12 && hour < 18) {
-    return 'Good afternoon!'
+    return 'Good Afternoon!'
   } else if (hour >= 18 && hour < 22) {
-    return 'Good evening!'
+    return 'Good Evening!'
   } else if (hour >= 22) {
-    return 'Good late evening!'
+    return 'Good Late Evening!'
   } else {
-    return 'Hey night-owl!'
+    return 'Hey Night Owl!'
   }
 }
 
