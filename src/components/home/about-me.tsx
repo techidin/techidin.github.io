@@ -31,7 +31,7 @@ export default function AboutMe() {
             variants={variants.fadeInDown}
             transition={transitions.default}
           >
-            I’m from <span className="text-gray-1000 underline decoration-green-400 dark:text-white">Indonesia</span> working as a <span className="text-gray-1000 underline decoration-green-400 dark:text-white">Software Engineer.</span> With over <span className="text-gray-1000 underline decoration-green-400 dark:text-white">6 years</span> of extensive experience as a <span className="text-gray-1000 underline decoration-green-400 dark:text-white">Software Engineer</span>, I have spearheaded numerous transformative technology projects across various industries
+            I’m <span className="text-gray-1000 underline decoration-green-400 dark:text-white">Idin</span> from <span className="text-gray-1000 underline decoration-green-400 dark:text-white">Indonesia</span> working as a <span className="text-gray-1000 underline decoration-green-400 dark:text-white">Software Engineer.</span> With <span className="text-gray-1000 underline decoration-green-400 dark:text-white">over 6 years</span> of extensive experience as a <span className="text-gray-1000 underline decoration-green-400 dark:text-white">Software Engineer</span>, I have spearheaded numerous transformative technology projects across various industries
           </motion.p>
           <motion.p
             variants={variants.fadeInDown}

@@ -14,7 +14,7 @@ export const programmingLanguageStacks = [
     logo: <TechIcons.JS className="h-20 md:h-28 w-auto" />,
   },
   {
-    name: 'TypeScript',
+    name: 'Type Script',
     logo: <TechIcons.TypeScript className="h-20 md:h-28 w-auto" />,
   },
   {
@@ -29,19 +29,19 @@ export const programmingLanguageStacks = [
 
 export const backendStacks = [
   {
-    name: 'NodeJS',
+    name: 'Node JS',
     logo: <TechIcons.NodeJS className="h-20 md:h-28 w-auto" />,
   },
   {
-    name: 'NestJS',
+    name: 'Nest JS',
     logo: <TechIcons.NestJS className="h-20 md:h-28 w-auto" />,
   },
   {
-    name: 'KoaJS',
+    name: 'Koa JS',
     logo: <TechIcons.NestJS className="h-20 md:h-28 w-auto" />,
   },
   {
-    name: 'ExpressJS',
+    name: 'Express JS',
     logo: <TechIcons.NestJS className="h-20 md:h-28 w-auto" />,
   },
   {
@@ -56,23 +56,23 @@ export const backendStacks = [
 
 export const frontendStacks = [
   {
-    name: 'VueJS',
+    name: 'Vue JS',
     logo: <TechIcons.VueJS className="h-20 md:h-28 w-auto" />,
   },
   {
-    name: 'NuxtJS',
+    name: 'Nuxt JS',
     logo: <TechIcons.NuxtJS className="h-20 md:h-28 w-auto" />,
   },
   {
-    name: 'ReactJS',
+    name: 'React JS',
     logo: <TechIcons.ReactJS className="h-20 md:h-28 w-auto" />,
   },
   {
-    name: 'NextJS',
+    name: 'Next JS',
     logo: <TechIcons.NextJS className="h-20 md:h-28 w-auto" />,
   },
   {
-    name: 'ViteJS',
+    name: 'Vite JS',
     logo: <TechIcons.ViteJS className="h-20 md:h-28 w-auto" />,
   },
   {
@@ -92,7 +92,7 @@ export const frontendStacks = [
     logo: <TechIcons.Pinia className="h-20 md:h-28 w-auto" />,
   },
   {
-    name: 'WebPack',
+    name: 'Web Pack',
     logo: <TechIcons.WebPack className="h-20 md:h-28 w-auto" />,
   },
   {
@@ -115,7 +115,7 @@ export const frontendStacks = [
 
 export const databaseStacks = [
   {
-    name: 'PostgreSQL',
+    name: 'Postgre SQL',
     logo: <TechIcons.PostgreSQL className="h-20 md:h-28 w-auto" />,
   },
   {
@@ -123,7 +123,7 @@ export const databaseStacks = [
     logo: <TechIcons.MySQL className="h-20 md:h-28 w-auto" />,
   },
   {
-    name: 'MariaDB',
+    name: 'Maria DB',
     logo: <TechIcons.MySQL className="h-20 md:h-28 w-auto" />,
   },
   {
@@ -131,11 +131,11 @@ export const databaseStacks = [
     logo: <TechIcons.GraphQL className="h-20 md:h-28 w-auto" />,
   },
   {
-    name: 'MongoDB',
+    name: 'Mongo DB',
     logo: <TechIcons.MongoDB className="h-20 md:h-28 w-auto" />,
   },
   {
-    name: 'DyanmoDB',
+    name: 'Dyanmo DB',
     logo: <TechIcons.MongoDB className="h-20 md:h-28 w-auto" />,
   },
   {
@@ -252,7 +252,7 @@ export const cloudStacks = [
 
 export const messageQueuingStacks = [
   {
-    name: 'RabbitMQ',
+    name: 'Rabbit MQ',
     logo: <TechIcons.Figma className="h-20 md:h-28 w-auto" />,
   },
   {
@@ -279,7 +279,7 @@ export const thirdPartyIntegrationsStacks = [
     logo: <TechIcons.AirTable className="h-20 md:h-28 w-auto" />,
   },
   {
-    name: 'AirTable',
+    name: 'Air Table',
     logo: <TechIcons.AirTable className="h-20 md:h-28 w-auto" />,
   },
 ]
@@ -298,7 +298,7 @@ export const projectManagementStacks = [
     logo: <TechIcons.Atlassian className="h-20 md:h-28 w-auto" />,
   },
   {
-    name: 'ClickUp',
+    name: 'Click Up',
     logo: <TechIcons.Atlassian className="h-20 md:h-28 w-auto" />,
   },
   {
@@ -347,7 +347,11 @@ export const extensionStacks = [
 
 export const toolsStacks = [
   {
-    name: 'VSCode',
+    name: 'VS Code',
+    logo: <TechIcons.VSCode className="h-20 md:h-28 w-auto" />,
+  },
+  {
+    name: 'Android Studio',
     logo: <TechIcons.VSCode className="h-20 md:h-28 w-auto" />,
   },
   {
@@ -359,12 +363,12 @@ export const toolsStacks = [
     logo: <TechIcons.Swagger className="h-20 md:h-28 w-auto" />,
   },
   {
-    name: 'Slack',
-    logo: <TechIcons.Slack className="h-20 md:h-28 w-auto" />,
-  },
-  {
     name: 'Figma',
     logo: <TechIcons.Figma className="h-20 md:h-28 w-auto" />,
+  },
+  {
+    name: 'Slack',
+    logo: <TechIcons.Slack className="h-20 md:h-28 w-auto" />,
   },
 ]
 

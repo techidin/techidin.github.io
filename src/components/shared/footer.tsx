@@ -15,16 +15,16 @@ export default function Footer() {
               {...whileInView}
               transition={transitions.default}
               variants={variants.fadeInDown}
-              className="text-center"
+              className="text-center text-sm md:text-md lg:text-lg"
             >
-              <div className="mb-2 text-sm md:text-md text-gray-50">
+              <div className="mb-2 text-gray-50">
                 Have an interesting, stupid or crazy idea you&#39;d like some
                 help building? {` `}
               </div>
-              <div className="mb-2 text-sm md:text-md text-gray-50">
+              <div className="mb-2 text-gray-50">
                 Let&#39;s talk – idinz.dev@gmail.com
               </div>
-              <div className="mx-auto max-w-2xl text-sm md:text-md text-gray-35 dark:text-gray-300">
+              <div className="mx-auto max-w-2xl text-gray-35 dark:text-gray-300">
                 {new Date().getFullYear()} &copy; Ahmad Muhyidin
               </div>
             </motion.div>
