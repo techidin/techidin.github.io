@@ -18,7 +18,7 @@ export function Resume() {
           <motion.a
             transition={transitions.default}
             variants={variants.fadeInDownRotate}
-            href="/files/cv_ahmad_muhyidin.pdf"
+            href="/files/Ahmad_Muhyidin-Software_Engineer-Resume.pdf"
             target="_blank"
             className="inline-flex md:mb-5 items-center space-x-2 rounded-lg border border-gray-30 bg-white py-2 pl-2.5 pr-2 transition-colors group-hover/card:border-gray-40 dark:border-gray-500 dark:bg-gray-900 dark:group-hover/card:border-gray-200">
             <div className="text-sm font-bold leading-none text-gray-1000 dark:text-white">
