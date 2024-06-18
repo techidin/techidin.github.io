@@ -16,14 +16,14 @@ export const certificates = [
     credential_url: 'https://edu.alibabacloud.com/clouder/Certificate/search?type=1&num=IACA01200200004632L',
   },
   {
-    name: 'Android Application Fundamentals',
+    name: 'Android App Fundamentals',
     company: 'Dicoding Academy',
     period: 'Feb 2020 - Feb 2023',
     credential_id: null,
     credential_url: 'https://drive.google.com/file/d/1b2E12U3eVR1-RxUz_1AYy8PTVjqmYwXV/view?usp=drivesdk',
   },
   {
-    name: 'Android Application for Beginners',
+    name: 'Android App for Beginners',
     company: 'Dicoding Academy',
     period: 'Sept 2019 - Sept 2022',
     credential_id: null,

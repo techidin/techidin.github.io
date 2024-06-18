@@ -427,7 +427,7 @@ export default function TechStacks() {
         whileInView="show"
         transition={transitions.default}
         variants={variants.fadeInDown}
-        className="flex w-full ml-4 mt-10 md:mt-16 md:ml-8"
+        className="flex w-full ml-2 mt-10 md:mt-16 md:ml-8"
       >
         <span className="italic text-sm md:text-md lg:text-lg text-white transition-colors group-hover:text-green-500">
           Back-End Technologies
@@ -459,7 +459,7 @@ export default function TechStacks() {
         whileInView="show"
         transition={transitions.default}
         variants={variants.fadeInDown}
-        className="flex w-full ml-4 mt-10 md:mt-16 md:ml-8"
+        className="flex w-full ml-2 mt-10 md:mt-16 md:ml-8"
       >
         <span className="italic text-sm md:text-md lg:text-lg text-white transition-colors group-hover:text-green-500">
           Front-End Technologies
@@ -491,7 +491,7 @@ export default function TechStacks() {
         whileInView="show"
         transition={transitions.default}
         variants={variants.fadeInDown}
-        className="flex w-full ml-4 mt-10 md:mt-16 md:ml-8"
+        className="flex w-full ml-2 mt-10 md:mt-16 md:ml-8"
       >
         <span className="italic text-sm md:text-md lg:text-lg text-white transition-colors group-hover:text-green-500">
           Database
@@ -523,7 +523,7 @@ export default function TechStacks() {
         whileInView="show"
         transition={transitions.default}
         variants={variants.fadeInDown}
-        className="flex w-full ml-4 mt-10 md:mt-16 md:ml-8"
+        className="flex w-full ml-2 mt-10 md:mt-16 md:ml-8"
       >
         <span className="italic text-sm md:text-md lg:text-lg text-white transition-colors group-hover:text-green-500">
           CSS Frameworks
@@ -555,7 +555,7 @@ export default function TechStacks() {
         whileInView="show"
         transition={transitions.default}
         variants={variants.fadeInDown}
-        className="flex w-full ml-4 mt-10 md:mt-16 md:ml-8"
+        className="flex w-full ml-2 mt-10 md:mt-16 md:ml-8"
       >
         <span className="italic text-sm md:text-md lg:text-lg text-white transition-colors group-hover:text-green-500">
           Cloud Computing
@@ -587,7 +587,7 @@ export default function TechStacks() {
         whileInView="show"
         transition={transitions.default}
         variants={variants.fadeInDown}
-        className="flex w-full ml-4 mt-10 md:mt-16 md:ml-8"
+        className="flex w-full ml-2 mt-10 md:mt-16 md:ml-8"
       >
         <span className="italic text-sm md:text-md lg:text-lg text-white transition-colors group-hover:text-green-500">
           Message Queuing Technologies
@@ -619,7 +619,7 @@ export default function TechStacks() {
         whileInView="show"
         transition={transitions.default}
         variants={variants.fadeInDown}
-        className="flex w-full ml-4 mt-10 md:mt-16 md:ml-8"
+        className="flex w-full ml-2 mt-10 md:mt-16 md:ml-8"
       >
         <span className="italic text-sm md:text-md lg:text-lg text-white transition-colors group-hover:text-green-500">
           Third Party Integrations
@@ -651,7 +651,7 @@ export default function TechStacks() {
         whileInView="show"
         transition={transitions.default}
         variants={variants.fadeInDown}
-        className="flex w-full ml-4 mt-10 md:mt-16 md:ml-8"
+        className="flex w-full ml-2 mt-10 md:mt-16 md:ml-8"
       >
         <span className="italic text-sm md:text-md lg:text-lg text-white transition-colors group-hover:text-green-500">
           Project Management
@@ -683,7 +683,7 @@ export default function TechStacks() {
         whileInView="show"
         transition={transitions.default}
         variants={variants.fadeInDown}
-        className="flex w-full ml-4 mt-10 md:mt-16 md:ml-8"
+        className="flex w-full ml-2 mt-10 md:mt-16 md:ml-8"
       >
         <span className="italic text-sm md:text-md lg:text-lg text-white transition-colors group-hover:text-green-500">
           Source Code Management
@@ -715,7 +715,7 @@ export default function TechStacks() {
         whileInView="show"
         transition={transitions.default}
         variants={variants.fadeInDown}
-        className="flex w-full ml-4 mt-10 md:mt-16 md:ml-8"
+        className="flex w-full ml-2 mt-10 md:mt-16 md:ml-8"
       >
         <span className="italic text-sm md:text-md lg:text-lg text-white transition-colors group-hover:text-green-500">
           Extensions
@@ -747,7 +747,7 @@ export default function TechStacks() {
         whileInView="show"
         transition={transitions.default}
         variants={variants.fadeInDown}
-        className="flex w-full ml-4 mt-10 md:mt-16 md:ml-8"
+        className="flex w-full ml-2 mt-10 md:mt-16 md:ml-8"
       >
         <span className="italic text-sm md:text-md lg:text-lg text-white transition-colors group-hover:text-green-500">
           Tools
@@ -779,7 +779,7 @@ export default function TechStacks() {
         whileInView="show"
         transition={transitions.default}
         variants={variants.fadeInDown}
-        className="flex w-full ml-4 mt-10 md:mt-16 md:ml-8"
+        className="flex w-full ml-2 mt-10 md:mt-16 md:ml-8"
       >
         <span className="italic text-sm md:text-md lg:text-lg text-white transition-colors group-hover:text-green-500">
           System Operation
