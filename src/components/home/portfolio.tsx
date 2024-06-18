@@ -304,7 +304,7 @@ export default function Portfolios() {
   const [selectedPortfolio,setSelectedPortfolio] = React.useState<PortfolioData | null>(null);
   
   return (
-    <div className="col-span-12 bg-dotted-light dark:bg-dotted-dark border-x border-t border-gray-30 bg-gray-5/20  bg-center px-4 py-5 md:px-8 md:py-8 dark:border-gray-500 dark:bg-transparent ">
+    <div className="col-span-12 border-x border-t border-gray-30 bg-gray-5/20  bg-center px-4 py-5 md:px-8 md:py-8 dark:border-gray-500 dark:bg-transparent ">
       {showModal && selectedPortfolio !== null ? (
         <>
           <motion.div

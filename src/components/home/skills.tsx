@@ -65,7 +65,7 @@ export const softskills = [
 export default function Skills() {
   return (
     <div className="relative order-2 col-span-12 border-r border-gray-500 bg-gradient-to-br from-gray-700 via-gray-1000 to-gray-1000 lg:order-2 lg:col-span-7 xl:col-span-8">
-      <div className="border-l border-gray-500 bg-gray-1000/20 p-6 transition-colors hover:bg-transparent xs:p-10 lg:border-l-0">
+      <div className="border-l border-gray-500 bg-gray-1000/20 p-6 md:p-8 transition-colors hover:bg-transparent lg:border-l-0">
         <div className="flex w-full flex-col items-start pr-6 xs:pr-8 sm:pr-0">
           <SectionTitle title="Skills" icon={Icons.Labs} />
         </div>

@@ -64,7 +64,7 @@ export default function Certificates() {
   return (
     <div className="order-3 col-span-12 border-x border-t border-gray-30 bg-gray-5/20 bg-center p-4 dark:border-gray-500 dark:bg-transparent xs:p-8 xl:order-3 xl:col-span-4 xl:border-l-0 xl:border-t-0">
       {/* Title */}
-      <SectionTitle title="Certificates" icon={Icons.Fire} />
+      <SectionTitle title="Licenses & certificates" icon={Icons.Fire} />
 
       {/* List of certificates */}
       <motion.div
