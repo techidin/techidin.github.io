@@ -28,7 +28,7 @@ export const educations = [
 // Educations
 export default function Educations() {
   return (
-    <div className="order-2 col-span-12 flex flex-col-reverse border-x border-gray-30 dark:border-gray-500 lg:order-1 lg:col-span-5 lg:flex-col xl:col-span-4">
+    <div className="order-1 col-span-12 flex flex-col-reverse border-x border-gray-30 dark:border-gray-500 lg:order-1 lg:col-span-5 lg:flex-col xl:col-span-4">
       <motion.div
         {...whileInView}
         whileInView="show"
@@ -38,7 +38,7 @@ export default function Educations() {
       >
         <SectionTitle title="Educations" icon={Icons.Suitcase} />
 
-        <div className="mt-4 grid grid-cols-6 gap-4 xs:gap-5">
+        <div className="mt-4 grid gap-4 xs:gap-5">
           {educations.map((education) => {
             return (
               <motion.a

@@ -4,76 +4,76 @@ import { motion } from 'framer-motion'
 
 import SectionTitle from '@/components/shared/section-title'
 import Icons from '@/components/svgs/icons'
-import { GeneratedIllustration } from '@/components/home/experiments/generated-illustration'
+import { UntickIllustration } from '@/components/home/experiments/untick-illustration'
 import { animate, transitions, variants } from '@/utils/animations'
 
-export const workexperiences = [
+export const certificates = [
   {
     role: 'Senior Software Engineer',
     company: 'Inovata',
     period: 'Apr 2024 - Present',
     link: 'https://inovatain.com/',
-    illustration: <GeneratedIllustration />,
+    illustration: <UntickIllustration />,
   },
   {
     role: 'Senior Software Engineer',
     company: 'Gromura',
     period: 'Aug 2023 - Apr 2024',
     link: 'https://gromura.com/',
-    illustration: <GeneratedIllustration />,
+    illustration: <UntickIllustration />,
   },
   {
     role: 'Software Engineer',
     company: 'InKanteen',
     period: 'Apr 2022 - Aug 2023',
     link: 'https://inkanteen.com',
-    illustration: <GeneratedIllustration />,
+    illustration: <UntickIllustration />,
   },
   {
     role: 'Profesional Freelancer',
     company: 'Worldwide',
     period: 'Nov 2021 - Oct 2022',
     link: 'https://redek.co',
-    illustration: <GeneratedIllustration />,
+    illustration: <UntickIllustration />,
   },
   {
     role: 'Software Engineer',
     company: 'Futuready',
     period: 'Feb 2019 - Nov 2021',
     link: 'https://futuready.com',
-    illustration: <GeneratedIllustration />,
+    illustration: <UntickIllustration />,
   },
   {
     role: 'Web Developer',
     company: 'Indonesia Smartcloud',
     period: 'May 2018 - Jan 2019',
     link: 'https://smartcloud.id',
-    illustration: <GeneratedIllustration />,
+    illustration: <UntickIllustration />,
   },
   {
     role: 'Web Developer',
     company: 'Radar Bogor',
     period: 'Jul 2017 - Sep 2017',
     link: 'https://radarbogor.id',
-    illustration: <GeneratedIllustration />,
+    illustration: <UntickIllustration />,
   },
 ]
 
-// WorkExperiences
-export default function WorkExperiences() {
+// Certificates
+export default function Certificates() {
   return (
-    <div className="order-3 col-span-12 border-x border-t border-gray-30 bg-gray-5/20 bg-dotted-light bg-center p-4 dark:border-gray-500 dark:bg-transparent dark:bg-dotted-dark xs:p-8 xl:order-3 xl:col-span-4 xl:border-l-0 xl:border-t-0">
+    <div className="order-3 col-span-12 border-x border-t border-gray-30 bg-gray-5/20 bg-center p-4 dark:border-gray-500 dark:bg-transparent xs:p-8 xl:order-3 xl:col-span-4 xl:border-l-0 xl:border-t-0">
       {/* Title */}
-      <SectionTitle title="Work Experience" icon={Icons.Fire} />
+      <SectionTitle title="Certificates" icon={Icons.Fire} />
 
-      {/* List of workexperiences */}
+      {/* List of certificates */}
       <motion.div
         {...animate}
         transition={{ ...transitions.default, delay: 0.75 }}
         variants={variants.staggerChildren}
         className="mt-4 grid grid-cols-6 gap-4 xs:mt-6 xs:gap-5"
       >
-        {workexperiences.map((experience) => {
+        {certificates.map((experience) => {
           return (
             <motion.a
               transition={transitions.default}

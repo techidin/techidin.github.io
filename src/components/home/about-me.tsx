@@ -10,9 +10,9 @@ import { animate, transitions, variants } from '@/utils/animations'
 // About component
 export default function AboutMe() {
   return (
-    <div className="order-2 col-span-12 flex flex-col border-x border-gray-30 dark:border-gray-500 md:order-1 md:col-span-6 min-[896px]:col-span-7 xl:col-span-4">
+    <div className="order-2 col-span-12 flex flex-col border-x border-gray-30 dark:border-gray-500 md:order-1 md:col-span-12 xl:col-span-4">
       {/* Intro */}
-      <div className="px-6 pt-10 md:pt-8 md:px-8">
+      <div className="px-6 pt-6 md:pt-8 md:px-8">
         <motion.h2
           {...animate}
           transition={transitions.default}
@@ -31,7 +31,7 @@ export default function AboutMe() {
             variants={variants.fadeInDown}
             transition={transitions.default}
           >
-            I’m <span className="text-gray-1000 underline decoration-green-400 dark:text-white">Idin</span> from <span className="text-gray-1000 underline decoration-green-400 dark:text-white">Indonesia</span> working as a <span className="text-gray-1000 underline decoration-green-400 dark:text-white">Software Engineer.</span> With <span className="text-gray-1000 underline decoration-green-400 dark:text-white">over 6 years</span> of extensive experience as a <span className="text-gray-1000 underline decoration-green-400 dark:text-white">Software Engineer</span>, I have spearheaded numerous transformative technology projects across various industries
+            Hi 👋, I’m <span className="text-gray-1000 underline decoration-green-400 dark:text-white">Idin</span> from <span className="text-gray-1000 underline decoration-green-400 dark:text-white">Indonesia</span> working as a <span className="text-gray-1000 underline decoration-green-400 dark:text-white">Software Engineer.</span> With <span className="text-gray-1000 underline decoration-green-400 dark:text-white">over 6 years</span> of extensive experience as a <span className="text-gray-1000 underline decoration-green-400 dark:text-white">Software Engineer</span>, I have spearheaded numerous transformative technology projects across various industries
           </motion.p>
           <motion.p
             variants={variants.fadeInDown}

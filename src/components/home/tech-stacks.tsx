@@ -395,9 +395,9 @@ export default function TechStacks() {
         whileInView="show"
         transition={transitions.default}
         variants={variants.fadeInDown}
-        className="flex w-full mt-8 ml-8"
+        className="flex w-full ml-4 mt-6 md:mt-8 md:ml-8"
       >
-        <span className="italic text-md md:text-lg text-white transition-colors group-hover:text-green-500">
+        <span className="italic text-sm md:text-lg text-white transition-colors group-hover:text-green-500">
           Programming Languages
         </span>
       </motion.div>
@@ -415,7 +415,7 @@ export default function TechStacks() {
             className="active:translate-y-[1px] flex flex-col justify-center items-center"
           >
             {stack.logo}
-            <span className="text-xs -mt-2">
+            <span className="text-xs text-center -mt-2">
               {stack.name}
             </span>
           </div>
@@ -427,9 +427,9 @@ export default function TechStacks() {
         whileInView="show"
         transition={transitions.default}
         variants={variants.fadeInDown}
-        className="flex w-full mt-16 ml-8"
+        className="flex w-full ml-4 mt-10 md:mt-16 md:ml-8"
       >
-        <span className="italic text-md md:text-lg text-white transition-colors group-hover:text-green-500">
+        <span className="italic text-sm md:text-md lg:text-lg text-white transition-colors group-hover:text-green-500">
           Back-End Technologies
         </span>
       </motion.div>
@@ -447,7 +447,7 @@ export default function TechStacks() {
             className="active:translate-y-[1px] flex flex-col justify-center items-center"
           >
             {stack.logo}
-            <span className="text-xs -mt-2">
+            <span className="text-xs text-center -mt-2">
               {stack.name}
             </span>
           </div>
@@ -459,9 +459,9 @@ export default function TechStacks() {
         whileInView="show"
         transition={transitions.default}
         variants={variants.fadeInDown}
-        className="flex w-full mt-16 ml-8"
+        className="flex w-full ml-4 mt-10 md:mt-16 md:ml-8"
       >
-        <span className="italic text-md md:text-lg text-white transition-colors group-hover:text-green-500">
+        <span className="italic text-sm md:text-md lg:text-lg text-white transition-colors group-hover:text-green-500">
           Front-End Technologies
         </span>
       </motion.div>
@@ -479,7 +479,7 @@ export default function TechStacks() {
             className="active:translate-y-[1px] flex flex-col justify-center items-center"
           >
             {stack.logo}
-            <span className="text-xs -mt-2">
+            <span className="text-xs text-center -mt-2">
               {stack.name}
             </span>
           </div>
@@ -491,9 +491,9 @@ export default function TechStacks() {
         whileInView="show"
         transition={transitions.default}
         variants={variants.fadeInDown}
-        className="flex w-full mt-16 ml-8"
+        className="flex w-full ml-4 mt-10 md:mt-16 md:ml-8"
       >
-        <span className="italic text-md md:text-lg text-white transition-colors group-hover:text-green-500">
+        <span className="italic text-sm md:text-md lg:text-lg text-white transition-colors group-hover:text-green-500">
           Database
         </span>
       </motion.div>
@@ -511,7 +511,7 @@ export default function TechStacks() {
             className="active:translate-y-[1px] flex flex-col justify-center items-center"
           >
             {stack.logo}
-            <span className="text-xs -mt-2">
+            <span className="text-xs text-center -mt-2">
               {stack.name}
             </span>
           </div>
@@ -523,9 +523,9 @@ export default function TechStacks() {
         whileInView="show"
         transition={transitions.default}
         variants={variants.fadeInDown}
-        className="flex w-full mt-16 ml-8"
+        className="flex w-full ml-4 mt-10 md:mt-16 md:ml-8"
       >
-        <span className="italic text-md md:text-lg text-white transition-colors group-hover:text-green-500">
+        <span className="italic text-sm md:text-md lg:text-lg text-white transition-colors group-hover:text-green-500">
           CSS Frameworks
         </span>
       </motion.div>
@@ -543,7 +543,7 @@ export default function TechStacks() {
             className="active:translate-y-[1px] flex flex-col justify-center items-center"
           >
             {stack.logo}
-            <span className="text-xs -mt-2">
+            <span className="text-xs text-center -mt-2">
               {stack.name}
             </span>
           </div>
@@ -555,9 +555,9 @@ export default function TechStacks() {
         whileInView="show"
         transition={transitions.default}
         variants={variants.fadeInDown}
-        className="flex w-full mt-16 ml-8"
+        className="flex w-full ml-4 mt-10 md:mt-16 md:ml-8"
       >
-        <span className="italic text-md md:text-lg text-white transition-colors group-hover:text-green-500">
+        <span className="italic text-sm md:text-md lg:text-lg text-white transition-colors group-hover:text-green-500">
           Cloud Computing
         </span>
       </motion.div>
@@ -575,7 +575,7 @@ export default function TechStacks() {
             className="active:translate-y-[1px] flex flex-col justify-center items-center"
           >
             {stack.logo}
-            <span className="text-xs -mt-2">
+            <span className="text-xs text-center -mt-2">
               {stack.name}
             </span>
           </div>
@@ -587,9 +587,9 @@ export default function TechStacks() {
         whileInView="show"
         transition={transitions.default}
         variants={variants.fadeInDown}
-        className="flex w-full mt-16 ml-8"
+        className="flex w-full ml-4 mt-10 md:mt-16 md:ml-8"
       >
-        <span className="italic text-md md:text-lg text-white transition-colors group-hover:text-green-500">
+        <span className="italic text-sm md:text-md lg:text-lg text-white transition-colors group-hover:text-green-500">
           Message Queuing Technologies
         </span>
       </motion.div>
@@ -607,7 +607,7 @@ export default function TechStacks() {
             className="active:translate-y-[1px] flex flex-col justify-center items-center"
           >
             {stack.logo}
-            <span className="text-xs -mt-2">
+            <span className="text-xs text-center -mt-2">
               {stack.name}
             </span>
           </div>
@@ -619,9 +619,9 @@ export default function TechStacks() {
         whileInView="show"
         transition={transitions.default}
         variants={variants.fadeInDown}
-        className="flex w-full mt-16 ml-8"
+        className="flex w-full ml-4 mt-10 md:mt-16 md:ml-8"
       >
-        <span className="italic text-md md:text-lg text-white transition-colors group-hover:text-green-500">
+        <span className="italic text-sm md:text-md lg:text-lg text-white transition-colors group-hover:text-green-500">
           Third Party Integrations
         </span>
       </motion.div>
@@ -639,7 +639,7 @@ export default function TechStacks() {
             className="active:translate-y-[1px] flex flex-col justify-center items-center"
           >
             {stack.logo}
-            <span className="text-xs -mt-2">
+            <span className="text-xs text-center -mt-2">
               {stack.name}
             </span>
           </div>
@@ -651,9 +651,9 @@ export default function TechStacks() {
         whileInView="show"
         transition={transitions.default}
         variants={variants.fadeInDown}
-        className="flex w-full mt-16 ml-8"
+        className="flex w-full ml-4 mt-10 md:mt-16 md:ml-8"
       >
-        <span className="italic text-md md:text-lg text-white transition-colors group-hover:text-green-500">
+        <span className="italic text-sm md:text-md lg:text-lg text-white transition-colors group-hover:text-green-500">
           Project Management
         </span>
       </motion.div>
@@ -671,7 +671,7 @@ export default function TechStacks() {
             className="active:translate-y-[1px] flex flex-col justify-center items-center"
           >
             {stack.logo}
-            <span className="text-xs -mt-2">
+            <span className="text-xs text-center -mt-2">
               {stack.name}
             </span>
           </div>
@@ -683,9 +683,9 @@ export default function TechStacks() {
         whileInView="show"
         transition={transitions.default}
         variants={variants.fadeInDown}
-        className="flex w-full mt-16 ml-8"
+        className="flex w-full ml-4 mt-10 md:mt-16 md:ml-8"
       >
-        <span className="italic text-md md:text-lg text-white transition-colors group-hover:text-green-500">
+        <span className="italic text-sm md:text-md lg:text-lg text-white transition-colors group-hover:text-green-500">
           Source Code Management
         </span>
       </motion.div>
@@ -703,7 +703,7 @@ export default function TechStacks() {
             className="active:translate-y-[1px] flex flex-col justify-center items-center"
           >
             {stack.logo}
-            <span className="text-xs -mt-2">
+            <span className="text-xs text-center -mt-2">
               {stack.name}
             </span>
           </div>
@@ -715,9 +715,9 @@ export default function TechStacks() {
         whileInView="show"
         transition={transitions.default}
         variants={variants.fadeInDown}
-        className="flex w-full mt-16 ml-8"
+        className="flex w-full ml-4 mt-10 md:mt-16 md:ml-8"
       >
-        <span className="italic text-md md:text-lg text-white transition-colors group-hover:text-green-500">
+        <span className="italic text-sm md:text-md lg:text-lg text-white transition-colors group-hover:text-green-500">
           Extensions
         </span>
       </motion.div>
@@ -735,7 +735,7 @@ export default function TechStacks() {
             className="active:translate-y-[1px] flex flex-col justify-center items-center"
           >
             {stack.logo}
-            <span className="text-xs -mt-2">
+            <span className="text-xs text-center -mt-2">
               {stack.name}
             </span>
           </div>
@@ -747,9 +747,9 @@ export default function TechStacks() {
         whileInView="show"
         transition={transitions.default}
         variants={variants.fadeInDown}
-        className="flex w-full mt-16 ml-8"
+        className="flex w-full ml-4 mt-10 md:mt-16 md:ml-8"
       >
-        <span className="italic text-md md:text-lg text-white transition-colors group-hover:text-green-500">
+        <span className="italic text-sm md:text-md lg:text-lg text-white transition-colors group-hover:text-green-500">
           Tools
         </span>
       </motion.div>
@@ -767,7 +767,7 @@ export default function TechStacks() {
             className="active:translate-y-[1px] flex flex-col justify-center items-center"
           >
             {stack.logo}
-            <span className="text-xs -mt-2">
+            <span className="text-xs text-center -mt-2">
               {stack.name}
             </span>
           </div>
@@ -779,9 +779,9 @@ export default function TechStacks() {
         whileInView="show"
         transition={transitions.default}
         variants={variants.fadeInDown}
-        className="flex w-full mt-16 ml-8"
+        className="flex w-full ml-4 mt-10 md:mt-16 md:ml-8"
       >
-        <span className="italic text-md md:text-lg text-white transition-colors group-hover:text-green-500">
+        <span className="italic text-sm md:text-md lg:text-lg text-white transition-colors group-hover:text-green-500">
           System Operation
         </span>
       </motion.div>
@@ -799,7 +799,7 @@ export default function TechStacks() {
             className="active:translate-y-[1px] flex flex-col justify-center items-center"
           >
             {stack.logo}
-            <span className="text-xs -mt-2">
+            <span className="text-xs text-center -mt-2">
               {stack.name}
             </span>
           </div>

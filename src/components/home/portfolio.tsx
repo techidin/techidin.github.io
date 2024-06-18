@@ -289,8 +289,8 @@ export const portfolios = [
   },
 ]
 
-// Works
-export default function Works() {
+// Portfolios
+export default function Portfolios() {
   interface PortfolioData {
     name: string,
     description: string,
@@ -339,19 +339,19 @@ export default function Works() {
                     )
                   }
                 </div>
-                <div className="relative flex items-start justify-between -mt-3 pb-3 md:-mt-4 md:pb-6 px-5 border-b border-solid border-gray-400 rounded-t">
+                <div className="relative flex items-start justify-between -mt-3 pb-3 md:-mt-4 md:pb-6 px-4 md:px-6 border-b border-solid border-gray-400 rounded-t">
                   <div className="flex w-full md:w-10/12">
                     <h3 className="text-lg inline-flex md:text-xl lg:text-2xl mr-3 font-semibold">
                       { selectedPortfolio.name }
                     </h3>
                   </div>
                 </div>
-                <div className="relative px-6 py-2 flex-auto">
+                <div className="relative px-4 py-2 md:px-6 flex-auto">
                   <p className="text-gray-30 text-sm md:text-md lg:text-lg leading-relaxed">
                     { selectedPortfolio.description }
                   </p>
                 </div>
-                <div className="relative px-6 py-4 flex-auto text-sm md:text-md lg:text-lg">
+                <div className="relative px-4 py-4 md:px-6 flex-auto text-sm md:text-md lg:text-lg">
                   <span>Tech Stack:</span>
                   <p className="italic leading-normal text-gray-40">
                     {selectedPortfolio.techs}

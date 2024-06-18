@@ -10,7 +10,7 @@ import portrait from '@/assets/images/avatar.png'
 // Portrait component
 export default function Portrait() {
   return (
-    <div className="order-1 h-full col-span-12 flex border-x border-gray-30 px-4 pt-4 dark:border-gray-500 xs:px-8 xs:pt-8 md:order-2 md:col-span-6 md:border-l-0 md:border-r md:pb-8 min-[896px]:col-span-5 xl:order-2 xl:col-span-4">
+    <div className="order-1 h-full col-span-12 flex md:hidden border-x border-gray-30 px-4 pt-4 dark:border-gray-500 xs:px-8 xs:pt-8 md:order-2 md:col-span-6 md:border-l-0 md:border-r md:pb-8 min-[896px]:col-span-5 xl:order-2 xl:col-span-4">
       <div className="w-full">
         {/* Image */}
         <motion.div
