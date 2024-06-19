@@ -31,7 +31,7 @@ export const recommendations = [
   },
   {
     name: 'Affan Yusuf Fadillah',
-    position: 'React Native Developer | Mobile Developer | Frontend Developer',
+    position: 'Backend Engineer at Lifepack.id',
     description: '\nI call him Idin. He has excellent skills in all areas, managerial and technical individual. \n\nHe is a fast learner, problem solver and has a good attitude.\n\n'
   },
 ]
